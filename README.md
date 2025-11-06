@@ -47,6 +47,12 @@ This project implements a Weibull Random Field (WRF) framework for analyzing LiD
     └── functions.md
 ```
 
+## Data Availability
+
+The LAS file (`minasur.las`, ~67 MB) used in this research article is not included in this repository due to its size. The data file is available **upon request** from the authors. Please contact the corresponding authors for access to the LiDAR data.
+
+Note: The workflow can be executed from Step 2 onwards if you have pre-processed section files in `results/sections/`.
+
 ## Installation
 
 ### Required R Packages
@@ -169,5 +175,5 @@ See `config.R` for full list of parameters.
 - `results/sections/LAS_sec_*.csv`: Segmented cluster data
 - `results/estimation/param_estimation.csv`: WRF parameter estimates
 - `results/health_indicators/health_indicators.csv`: All health indicators
-- `results/health_indicators/flagged/flagged_*.csv`: Flagged clusters per indicator
+- `results/flagged_clusters/flagged_*.csv`: Flagged clusters per indicator
 

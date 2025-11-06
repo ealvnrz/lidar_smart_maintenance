@@ -1,0 +1,52 @@
+# =============================================================================
+# .gitignore for Weibull Random Field Framework
+# =============================================================================
+
+# ---- Large Data Files ----
+# LAS files (available upon request)
+data/raw/*.las
+data/raw/*.LAS
+
+# ---- Generated Results (can be regenerated) ----
+# Section CSVs (250 files, ~222 MB total)
+results/sections/*.csv
+results/sections/
+
+# ---- Figures (temporary/generated) ----
+figures/**/*.png
+figures/**/*.jpg
+figures/**/*.jpeg
+figures/**/*.pdf
+figures/**/*.svg
+
+# ---- R Environment ----
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user
+.Rproj
+
+# ---- OS Files ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# ---- Temporary Files ----
+*.tmp
+*.log
+*.swp
+*.bak
+*~
+
+# ---- Keep Important Results ----
+# These files should be tracked:
+# !results/estimation/param_estimation.csv
+# !results/health_indicators/health_indicators.csv
+# !results/flagged_clusters/flagged_*.csv
+
